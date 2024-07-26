@@ -1,7 +1,7 @@
 import {Schema, model} from 'mongoose'
 
 
-const esquema = new Schema({ //modelo
+export const esquema = new Schema({ //modelo
     name:{
         type: String
     }
